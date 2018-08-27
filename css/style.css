@@ -1,0 +1,98 @@
+html,body{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    padding: 0 0;
+    background-image: url(../img/tlo.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    line-height: normal;
+}
+
+/* kontenery */
+section {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wyniki, #start{
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px){
+    section {
+    width: 40%;
+}  
+}
+
+@media only screen and (max-width: 768px){
+    section {
+    width: 70%;
+} 
+}
+
+/* teksty */
+h1,h2,p,a {
+    color: white !important;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 25%;
+    padding-top: 15%;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    display: block;
+    margin: 4% 0 4% 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover{
+color: #f16529 !important;
+}
+
+@media only screen and (max-width: 1024px){
+    h1 {
+    font-size: 33px;
+} 
+h2{
+    font-size: 24px;
+}
+p{
+    font-size: 17px;
+}
+a{
+    font-size: 17px;
+}
+}
+
+@media only screen and (max-width: 768px){
+h1 {
+    font-size: 29px;
+} 
+h2{
+    font-size: 19px;
+}
+p{
+    font-size: 16px;
+}
+a{
+    font-size: 16px;
+}
+}
